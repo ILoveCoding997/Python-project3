@@ -1,18 +1,12 @@
 # Mad Libs Generator
-adjective = input("Enter an adjective: ")
-nationality = input("Enter a nationality: ")
-name = input("Enter a person: ")
-noun = input("Enter a noun: ")
-adjective1 = input("Enter an adjective: ")
-noun1 = input("Enter a noun: ")
-adjective2 = input("Enter another adjective: ")
-adjective3 = input("Enter another adjective: ")
-plural_noun = input("Enter a plural noun: ")
-noun2 = input("Enter a noun: ")
-number = input("Enter a number: ")
-shape = input("Enter a shape: ")
-food = input("Enter a food: ")
-food1 = input("Enter a food: ")
-number1 = input("Enter a number: ")
-text = "Pizza was invented by a " + adjective + " " + nationality + " chef named " + name + ". To make a pizza, you need to take a lump of " + noun + " and make a thin, round " + "\n" + adjective1 + " " + noun1 + ". Then you cover it with " + adjective2 + " sauce, some " + adjective3 + " cheese, and fresh chopped " + plural_noun + ". Next you have to bake it in a very hot " + noun2 + "." + "\n" +  "When it is done, cut it into " + number + " " + shape + " .Some kids like " + food + " pizza the best, but my favourite is the " + food1 + "\n" + "pizza. If I could, I would eat pizza " + number1 + " times a day!"
+
+list = [1, 2, 3, 4, 5]
+list[0] = input("Enter a name: ")
+list[1] = input("Enter a number: ")
+list[2] = input("Enter an adjective: ")
+list[3] = input("Enter an animal(plural): ")
+
+# Information gets compiled and sorted
+
+text = f"Hi there! My name is {list[0]} and I am {list[1]} years old. I like to eat {list[2]} {list[3]}."
 print(text)
