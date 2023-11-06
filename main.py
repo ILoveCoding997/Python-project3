@@ -6,7 +6,7 @@ list[1] = input("Enter a number: ")
 list[2] = input("Enter an adjective: ")
 list[3] = input("Enter an animal(plural): ")
 
-# Information gets compiled and sorted
+# Insert words into final string
 
 text = f"Hi there! My name is {list[0]} and I am {list[1]} years old. I like to eat {list[2]} {list[3]}."
 print(text)
